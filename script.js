@@ -47,4 +47,13 @@ function calcularEntrada(valor, status) {
   return status === "Novo" ? valor * 0.5 : valor * 0.3;
 }
 
+btnSalvar.addEventListener("click", () => {
+
+    localStorage.setItem("veiculoAtual", JSON.stringify(veiculoAtual));
+    console.log("Veículo salvo:", JSON.parse(localStorage.getItem("veiculoAtual")));
+
+    alert("Veículo salvo com sucesso!");
+});
+
+
 
