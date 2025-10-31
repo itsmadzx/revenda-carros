@@ -1,0 +1,11 @@
+[
+    {
+      "pedidos": [
+        {
+          "modelo": "Camaro",
+          "ano": 1976,
+          "preco": 200.000
+        }
+      ]
+    }
+]
