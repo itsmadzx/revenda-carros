@@ -1,0 +1,21 @@
+{
+  "name": "revenda-avenida",
+  "version": "1.0.0",
+  "description": "Sistema de cálculo de parcelas para revenda de veículos",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "veiculos",
+    "revenda"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
+
